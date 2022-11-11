@@ -9,11 +9,10 @@
 
 ### Sobre HitDOMboom
 
-Web responsive en mobile y desktop en la que podemos interactuar con un tambor que emite sonidos.
+Landing page responsive en mobile y desktop en la que podemos interactuar con un tambor que emite sonidos.
 
 ### Tecnologia utilizada
 - Html - css - js - Visual Code - Agile Scrum - Trello - Figma - GitHub
-
 
 #### Figma
 
