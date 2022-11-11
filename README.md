@@ -2,17 +2,17 @@
 
 ## Proyecto DRUMKIT
 
-Stakeholders: Laura y Alexandra
-Product Owner: Maricarmen
-Scrum Master: Cristina
-Scrum Team: Yenifer, Silvina, Michelle
+- Stakeholders: Laura y Alexandra
+- Product Owner: Maricarmen
+- Scrum Master: Cristina
+- Developer Team: Yenifer, Silvina, Michelle
 
 ### Sobre HitDOMboom
 
 Web responsive en mobile y desktop en la que podemos interactuar con un tambor que emite sonidos.
 
 ### Tecnologia utilizada
-- Html - css - js - Visual Code - Agile Scrum - Figma - GitHub -
+- Html - css - js - Visual Code - Agile Scrum - Trello - Figma - GitHub
 
 
 #### Figma
