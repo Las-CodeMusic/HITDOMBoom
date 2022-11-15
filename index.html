@@ -1,73 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles-css/style.css"/>
-    <link rel="stylesheet" href="./styles-css/stylenav.css">
-    <link rel="stylesheet" href="./styles-css/stylemain.css">
-    <link rel="stylesheet" href="./styles-css/stylefooter.css">
-    <link rel="stylesheet" href="./styles-css/stylemedia.css">
+    <link rel="stylesheet" href="./styles-css/style.css" />
+    <link rel="stylesheet" href="./styles-css/stylenav.css" />
+    <link rel="stylesheet" href="./styles-css/stylemain.css" />
+    <link rel="stylesheet" href="./styles-css/stylefooter.css" />
+    <link rel="stylesheet" href="./styles-css/stylemedia.css" />
     <title>Hit the DomBoom</title>
-  </head>
+</head>
 
-  <body>
-    <header>
-      <nav>
-        <div class="logo">
-          <img src="./assets/imagenes/logo.png " alt="logo drumkit" />
-        </div>
-        <input type="checkbox" id="check" />
-        <label for="check" class="bar-btn">
-          <div class="icono-menu">
-            <div class="linea"></div>
-            <div class="linea linea-corta"></div>
-            <div class="linea"></div>
-          </div>
-        </label>
+<body>
+    <div class="min-visual-heigth">
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="./assets/imagenes/logo.png " alt="logo drumkit" />
+                </div>
+                <input type="checkbox" id="check" />
+                <label for="check" class="bar-btn">
+            <div class="icono-menu">
+              <div class="linea"></div>
+              <div class="linea linea-corta"></div>
+              <div class="linea"></div>
+            </div>
+          </label>
 
-        <ul class="nav-menu">
-          <li><a class="active" href="#">Premium</a></li>
-          <li><a href="#">Help</a></li>
-          <li><a href="#">Download</a></li>
-          <li><a href="#">Sign Up</a></li>
-          <li><a href="#">Log In</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div>
-        <img src="./assets/imagenes/drumkit.png" alt="drumkit" />
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-      <section>
-        <h1 class="principalTitle">Music for everyone.</h1>
-        <h3 class="thirdTitle">Millions of songs. No credit card needed.</h3>
-        <button class="buttonMain">Hit the doom</button>
-      </section>
-
-      <div class="hitCircle">
-        <p>Hit</p>
-      </div>
-    </main>
+                <ul class="nav-menu">
+                    <li><a class="active" href="#">Premium</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Log In</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <img src="./assets/imagenes/drumkit.png" alt="drumkit" />
+                <div class="padSound">
+                    <div class="pad1 stylepad" onclick="playSound('pad1')"></div>
+                    <div class="pad2 stylepad" onclick="playSound('pad2')"></div>
+                    <div class="pad3 stylepad" onclick="playSound('pad3')"></div>
+                    <div class="pad4 stylepad" onclick="playSound('pad4')"></div>
+                    <div class="padBombo stylepad2" onclick="playSound('padbombo')"></div>
+                    <div class="padCrash stylepad2" onclick="playSound('padCrash')"></div>
+                    <div class="padHithat stylepad2" onclick="playSound('padHitHat')"></div>
+                    <div class="padReoblante stylepad2" onclick="playSound('padRedoblante')"></div>
+                    <audio id="soundBombo" src="./assets/sonidos/bombo.wav">
+              Este es un elemento de audio no soportado por tu navegador, prueba
+              con otro.
+            </audio>
+                    <audio id="soundCrash" src="./assets/sonidos/crash.wav">
+              Este es un elemento de audio no soportado por tu navegador, prueba
+              con otro.
+            </audio>
+                    <audio id="soundHitHat" src="./assets/sonidos/hit-hat.wav">
+              Este es un elemento de audio no soportado por tu navegador, prueba
+              con otro.
+            </audio>
+                    <audio id="soundRedoblante" src="./assets/sonidos/redoblante.wav">
+              Este es un elemento de audio no soportado por tu navegador, prueba
+              con otro.
+            </audio>
+                    <audio id="soundTom1" src="./assets/sonidos/tom1.wav">
+              Este es un elemento de audio no soportado por tu navegador, prueba
+              con otro.
+            </audio>
+                    <audio id="soundTom2" src="./assets/sonidos/tom2.wav">
+              Este es un elemento de audio no soportado por tu navegador, prueba
+              con otro.
+            </audio>
+                    <audio id="soundTom3" src="./assets/sonidos/tom3.wav">
+              Este es un elemento de audio no soportado por tu navegador, prueba
+              con otro.
+            </audio>
+                    <audio id="soundTom4" src="./assets/sonidos/tom4.wav">
+              Este es un elemento de audio no soportado por tu navegador, prueba
+              con otro.
+            </audio>
+                </div>
+            </div>
+            <section>
+                <h1 class="principalTitle">Music for everyone.</h1>
+                <h3 class="thirdTitle">Millions of songs. No credit card needed.</h3>
+                <button class="buttonMain">Hit the doom</button>
+            </section>
+        </main>
+    </div>
     <footer>
-      <h2 class="footerCenter">Try Premium Free for 1 month.</h2>
-      <h3 class="subtitleFooter">
-        Play millions of songs ad-free on-demand, and offline.
-      </h3>
-      <button class="buttonFooter">SEE PRICING</button>
+        <div class="hitCircle">
+            <p>Hit</p>
+        </div>
+        <h2 class="footerCenter">Try Premium Free for 1 month.</h2>
+        <h3 class="subtitleFooter">
+            Play millions of songs ad-free on-demand, and offline.
+        </h3>
+        <button class="buttonFooter">SEE PRICING</button>
     </footer>
 
     <script src="./script.js"></script>
-  </body>
+</body>
+
 </html>
