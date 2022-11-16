@@ -1,5 +1,5 @@
 header {
-  margin-bottom: 20%;
+  margin-bottom: 15%;
   width: 100vw;
 }
 
@@ -10,19 +10,19 @@ nav {
 }
 
 .logo {
-  width: 55%;
-  margin-top: 20%;
+  width: 53%;
+  margin-top: 10%;
   align-self: center;
 }
 
 .bar-btn {
-  margin-right: 5%;
-  margin-top: 7%;
+  margin-right: 4%;
+  margin-top: 5%;
   cursor: pointer;
   display: flex;
-  padding: 4% 4% 4% 15%;
+  padding: 3% 4% 3% 11%;
   background-color: var(--colorGreen);
-  border-radius: 5rem;
+  border-radius: 5em;
   justify-content: flex-end;
 }
 
@@ -33,21 +33,21 @@ nav {
   justify-content: center;
 }
 .linea {
-  width: 1.5rem;
-  height: 0.2rem;
+  width: 1.8em;
+  height: 0.2em;
   background-color: var(--colorWhite);
 }
 
 .linea-corta {
-  width: 1.2rem;
-  margin-top: 0.4rem;
-  margin-bottom: 0.4rem;
+  width: 1.2em;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
 }
 .nav-menu {
   position: fixed;
   width: 100%;
   top: 7%;
-  background-color: rgba(96,91,120,.80);
+  background-color: rgba(96, 91, 120, 0.8);
   text-align: center;
   transition: all 0.5s;
 }
@@ -66,7 +66,8 @@ nav {
   line-height: 400%;
 }
 
-.nav-menu li a:active, .nav-menu li a:hover {
+.nav-menu li a:active,
+.nav-menu li a:hover {
   color: var(--colorGreen);
   transition: 0.3s;
 }

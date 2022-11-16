@@ -3,6 +3,7 @@
   header {
     width: 100%;
     padding-top: 3%;
+    margin-bottom: 6%;
   }
 
   nav {
@@ -55,28 +56,24 @@
 
   /*-----------main--------*/
   main {
-    display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
   }
   .container {
-    width: 70%;
     margin-right: 3%;
   }
   section {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
     margin-left: 10%;
   }
 
   .principalTitleMain {
-    font-size: 7.3rem;
+    font-size: 7.3em;
     line-height: 100%;
+    margin-top: 5%;
   }
 
   .txtThirdMain {
-    font-size: 2rem;
+    font-size: 2em;
     line-height: 120%;
   }
   .buttonMain:hover {
@@ -94,20 +91,17 @@
   }
 
   .titleFooter {
-    font-size: 3.6rem;
+    font-size: 3.6em;
     padding-bottom: 1%;
   }
 
   .subtitleFooter {
-    font-size: 2rem;
+    font-size: 2em;
     padding-bottom: 2%;
   }
 
   .buttonFooter {
-    border-radius: 3rem;
-    font-size: 1.5rem;
     margin-bottom: 2%;
-    padding: 1.2% 2%;
     cursor: pointer;
   }
   .buttonFooter:hover {
