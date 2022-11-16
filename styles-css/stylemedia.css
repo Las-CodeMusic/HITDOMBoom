@@ -9,17 +9,12 @@
   nav {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     margin-left: 10%;
   }
 
   .logo {
     width: 20%;
     margin-top: 0;
-  }
-
-  .icono-menu {
-    display: none;
   }
 
   .bar-btn {
@@ -33,17 +28,24 @@
     padding-left: 40rem;
     padding-right: 10rem;
     transition: none;
-    background-color: transparent;
+    background: none;
+    top: 0;
   }
 
   .logIn {
-    border-left: solid 0.1rem var(--colorWhite);
+    border-left: solid 0.2rem var(--colorWhite);
+    padding-left: 4rem;
   }
 
-  .nav-menu li a:hover {
-    color: var(--colorGreen);
-    transition: 0.3s;
-  }
+  .nav-menu li {
+    display: inline-block;
+    line-height: 1rem;
+    margin: 2rem;
+    transition: none;
+}
+.nav-menu li a {
+    font-size: 1.8rem;
+}
 
   /*-----------main--------*/
   main {

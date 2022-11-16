@@ -47,13 +47,14 @@ nav {
   position: fixed;
   width: 100%;
   top: 7%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(96,91,120,.80);
   text-align: center;
   transition: all 0.5s;
 }
 
 .nav-menu li {
   display: none;
+  line-height: 11rem;
   margin: 10% 0;
   transition: all 0.5s;
 }
@@ -61,11 +62,11 @@ nav {
 .nav-menu li a {
   color: var(--colorWhite);
   font-weight: 600;
-  font-size: 1.8rem;
+  font-size: 3rem;
   line-height: 400%;
 }
 
-.nav-menu li a:active {
+.nav-menu li a:active, .nav-menu li a:hover {
   color: var(--colorGreen);
   transition: 0.3s;
 }
