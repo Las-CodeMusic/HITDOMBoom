@@ -1,130 +1,112 @@
-/* -----MAIN----- */
-
 main {
-    display: flex;
-    flex-direction: column;
-    width: 95%;
-    align-items: center;
-    align-content: center;
-    text-align: center;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center;
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    align-content: left;
-    text-align: left;
-    width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-content: left;
+  text-align: left;
+  width: 80%;
 }
 
-.principalTitle {
-    font-size: 4.3rem;
-    line-height: 4.7rem;
-    margin-top: 9.8%;
+.principalTitleMain {
+  font-size: 4.3rem;
+  line-height: 120%;
+  margin-top: 9.8%;
+  font-weight: 800;
+  color: var(--colorWhite);
 }
 
-.thirdTitle {
-    color: var(--colorGrey);
-    font-size: 1.2rem;
-    line-height: 1.4rem;
-    margin-top: 1.4rem;
-    margin-bottom: 2.3rem;
+.txtThirdMain {
+  color: var(--colorGrey);
+  margin-top: 1.4em;
+  margin-bottom: 2.3em;
 }
 
 .buttonMain {
-    width: 53%;
-    height: 3.6rem;
-    background-color: var(--colorGreen);
-    color: var(--colorWhite);
-    font-size: 1.7rem;
-    font-weight: 800;
-    line-height: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border-radius: 8rem;
+  width: 53%;
+  height: 3.6em;
+  background-color: var(--colorGreen);
+  color: var(--colorWhite);
+  font-size: 1.7rem;
+  font-weight: 800;
+  line-height: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 8em;
 }
 
-.hitCircle {
-    height: 19.8rem;
-    width: 19.8rem;
-    border: 2px solid #2b2b2d;
-    color: #2b2b2d;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    background-color: #131313;
-    margin-top: 9rem;
-    margin-bottom: 9.5rem;
-}
 /*----------circle pad---------*/
 
-.container{
-    position: relative;
+.container {
+  position: relative;
+  width: 95%;
 }
-.padSound{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0%;
+.padSound {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
 }
 .stylepad {
-    width: 17%;
-    height: 23%;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0);
+  width: 17%;
+  height: 23%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: grab;
 }
 .stylepad2 {
-    width:22%;
-    height:30%;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0);
+  width: 22%;
+  height: 30%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: grab;
 }
 .pad1 {
-    position: absolute;
-    top: 4%;
-    left: 2%;
+  position: absolute;
+  top: 4%;
+  left: 2%;
 }
 .pad2 {
-    position: absolute;
-    top: 28%;
-    left: 8%;
+  position: absolute;
+  top: 28%;
+  left: 8%;
 }
 .pad3 {
-    position: absolute;
-    top: 5%;
-    left: 80%;
+  position: absolute;
+  top: 5%;
+  left: 80%;
 }
 .pad4 {
-    position: absolute;
-    top: 28%;
-    left: 74%;
+  position: absolute;
+  top: 28%;
+  left: 74%;
 }
 .padBombo {
-    position: absolute;
-    top: 52%;
-    left: 15%;
+  position: absolute;
+  top: 52%;
+  left: 15%;
 }
-.padCrash{
-    position: absolute;
-    top: 15%;
-    left: 26%;
+.padCrash {
+  position: absolute;
+  top: 15%;
+  left: 26%;
 }
-.padHithat{
-    position: absolute;
-    top: 53%;
-    left: 63%;
+.padHithat {
+  position: absolute;
+  top: 53%;
+  left: 63%;
 }
-.padReoblante{
-    position: absolute;
-    top: 15%;
-    left: 50%;
+.padReoblante {
+  position: absolute;
+  top: 15%;
+  left: 50%;
 }
-
-
-
-
-
-
