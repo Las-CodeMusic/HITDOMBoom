@@ -44,11 +44,3 @@ footer {
   font-size: 1rem;
   margin-bottom: 30%;
 }
-
-@media (min-width: 1200px) {
-  .buttonFooter:hover {
-    background-color: var(--colorGreen);
-    box-shadow: 0 0 1em --colorWhite, 0 0 4em --colorGreen, 0 0 8em --colorGreen;
-    transition-delay: 0, 5;
-  }
-}

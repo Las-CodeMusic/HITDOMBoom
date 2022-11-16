@@ -71,7 +71,11 @@
     font-size: 2rem;
     line-height: 120%;
   }
-
+  .buttonMain:hover {
+    background-color: var(--colorWhite);
+    color: var(--colorGrey);
+  }
+  
   /* ---------footer---------- */
 
   footer {
@@ -96,5 +100,10 @@
     font-size: 1.5rem;
     margin-bottom: 2%;
     padding: 1.2% 2%;
+    cursor: pointer;
+  }
+  .buttonFooter:hover {
+    background-color: var(--colorGreen);
+  
   }
 }
