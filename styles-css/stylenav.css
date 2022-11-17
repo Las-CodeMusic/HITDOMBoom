@@ -50,12 +50,12 @@ nav {
   background-color: rgba(96, 91, 120, 0.8);
   text-align: center;
   transition: all 0.5s;
+  z-index: 1;
 }
 
 .nav-menu li {
   display: none;
-  line-height: 11rem;
-  margin: 10% 0;
+  line-height: 15em;
   transition: all 0.5s;
 }
 
