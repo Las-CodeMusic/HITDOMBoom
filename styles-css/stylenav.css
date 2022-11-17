@@ -59,15 +59,15 @@ nav {
   transition: all 0.5s;
 }
 
-.nav-menu li a {
+.linksNav {
   color: var(--colorWhite);
   font-weight: 600;
   font-size: 3rem;
   line-height: 400%;
 }
 
-.nav-menu li a:active,
-.nav-menu li a:hover {
+.linksNav:active,
+.linksNav:hover {
   color: var(--colorGreen);
   transition: 0.3s;
 }

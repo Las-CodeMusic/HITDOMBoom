@@ -42,14 +42,14 @@
     margin: 0.5%;
     transition: none;
   }
-  .nav-menu li a {
+  .linksNav {
     font-size: 1.8rem;
   }
   .singUp {
     color: var(--colorGreen);
   }
-  .nav-menu li a:active,
-  .nav-menu li a:hover {
+  .linksNav:active,
+  .linksNav:hover {
     color: var(--colorGrey);
     transition: 0.3s;
   }
