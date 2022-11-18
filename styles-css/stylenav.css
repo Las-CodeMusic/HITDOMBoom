@@ -1,6 +1,6 @@
 header {
-  margin-bottom: 15%;
-  width: 100vw;
+  padding-bottom: 15%;
+  width: 100%;
 }
 
 nav {
@@ -11,7 +11,7 @@ nav {
 
 .logo {
   width: 53%;
-  margin-top: 10%;
+  padding-top: 10%;
   align-self: center;
 }
 
@@ -24,6 +24,7 @@ nav {
   background-color: var(--colorGreen);
   border-radius: 5em;
   justify-content: flex-end;
+  z-index: 2;
 }
 
 .icono-menu {
@@ -44,30 +45,25 @@ nav {
   margin-bottom: 0.4em;
 }
 .nav-menu {
-  position: fixed;
-  width: 100%;
-  top: 7%;
+  display: none;
+  z-index: 1;
+  top: 0;
+  width: 100vw;
+  position: absolute;
   background-color: rgba(96, 91, 120, 0.8);
   text-align: center;
   transition: all 0.5s;
   z-index: 1;
 }
 
-.nav-menu li {
-  display: none;
-  line-height: 15em;
-  transition: all 0.5s;
-}
-
-.linksNav {
+.linkNav {
   color: var(--colorWhite);
   font-weight: 600;
-  font-size: 3rem;
-  line-height: 400%;
+  font-size: 3em;
+  line-height: 450%;
 }
 
-.linksNav:active,
-.linksNav:hover {
+.linkNav:active {
   color: var(--colorGreen);
   transition: 0.3s;
 }
@@ -77,9 +73,13 @@ nav {
 }
 
 #check:checked ~ .nav-menu {
-  height: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 
-#check:checked ~ .nav-menu li {
+#check:checked ~ .listNav {
   display: block;
 }
