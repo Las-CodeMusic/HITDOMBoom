@@ -1,7 +1,7 @@
 @media (min-width: 1200px) {
   /*-------header destop-------*/
   header {
-    padding: 3% 10% 5% 10%;
+    padding: 3% 10% 3% 10%;
   }
 
   nav {
@@ -35,7 +35,7 @@
   }
 
   .listNav {
-    padding: 0 10%;
+    padding: 0 12%;
     transition: none;
   }
   .nav-menu li a {
@@ -83,7 +83,7 @@
   /* ---------footer---------- */
 
   footer {
-    padding-top: 5%;
+    padding-top: 2%;
   }
   .containerCircle {
     display: none;
